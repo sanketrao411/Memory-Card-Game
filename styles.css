@@ -1,0 +1,31 @@
+.title{
+    font-family: calibri;
+    font-size: 28px;
+    text-align: center;
+    color: #9900cc;
+    font-weight: bold;
+}
+.copy{
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
